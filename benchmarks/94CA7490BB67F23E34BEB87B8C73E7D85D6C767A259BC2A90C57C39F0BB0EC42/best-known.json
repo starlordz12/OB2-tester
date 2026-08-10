@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 2,
+  "executableFileName": "OrbitOrBust2.exe",
+  "executableSha256": "94CA7490BB67F23E34BEB87B8C73E7D85D6C767A259BC2A90C57C39F0BB0EC42",
+  "verifiedAtUtc": "2026-08-10T02:19:00Z",
+  "bestLiveOrbit": {
+    "preset": "SRB",
+    "craft": "Strap-On Orbiter",
+    "missionTimeS": 215.7,
+    "successGate": "two consecutive rendered periapsis readings above 71 km plus the rendered ORBIT confirmation",
+    "finalAltitudeM": 85980,
+    "finalApoapsisM": 134130,
+    "finalPeriapsisM": 72020,
+    "remainingFuelT": 3.47,
+    "profile": {
+      "turnStartM": 350,
+      "turnEndM": 30000,
+      "targetApoapsisM": 82000,
+      "targetPeriapsisM": 71000,
+      "maxAtmosphericAoARad": 0.28
+    },
+    "evidenceDirectory": "benchmarks/94CA7490BB67F23E34BEB87B8C73E7D85D6C767A259BC2A90C57C39F0BB0EC42/evidence/srb"
+  },
+  "liveModuleComparisons": [
+    {
+      "preset": "Heavy",
+      "craft": "Heavy-Lift Orbiter",
+      "boundedAtS": 61.1,
+      "apoapsisM": 83860,
+      "periapsisM": -530790,
+      "remainingFuelT": 6.11,
+      "decision": "bounded at 61.1 seconds; trailed the SRB ascent to comparable apoapsis, with no complete Heavy orbit attempt verified"
+    },
+    {
+      "preset": "Orbiter",
+      "craft": "Orbit-Class Ascent",
+      "boundedAtS": 12.6,
+      "altitudeM": 86,
+      "speedMps": 14,
+      "thrustKN": 180,
+      "decision": "slow initial acceleration observation; reverted after telemetry watchdog, with no complete speed comparison"
+    }
+  ],
+  "learnedGuards": [
+    "Prefer high-contrast HUD Ap, Pe, altitude, speed, and vertical speed over unvalidated F3 values.",
+    "Accept F3 position and velocity only when derived altitude and speed agree with the HUD.",
+    "Reject impossible single-frame attitude jumps before issuing a steering pulse.",
+    "Never deploy the recovery parachute during ascent.",
+    "Revert immediately on stale telemetry, heading divergence, noncompetitive coast, suborbital descent, or best-time expiry."
+  ]
+}

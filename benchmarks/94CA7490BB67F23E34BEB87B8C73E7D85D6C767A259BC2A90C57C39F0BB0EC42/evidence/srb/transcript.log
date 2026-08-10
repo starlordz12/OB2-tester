@@ -1,0 +1,272 @@
+﻿2026-08-09T21:12:03.5600888-05:00	session=start executable=OrbitOrBust2.exe sha256=94CA7490BB67F23E34BEB87B8C73E7D85D6C767A259BC2A90C57C39F0BB0EC42 window=1298x768 localOcr=true
+2026-08-09T21:12:03.5706041-05:00	profile turnStartM=350 turnEndM=30000 targetApM=82000 targetPeM=71000 maxAoARad=0.28 hardLimitS=235
+2026-08-09T21:12:03.6042613-05:00	attempt=1 preset=SRB status=preparing
+2026-08-09T21:12:04.1414560-05:00	action click=(1135,414) reason=select-SRB
+2026-08-09T21:12:04.5714502-05:00	preflight preset=SRB craft=Strap-On Orbiter verified=true
+2026-08-09T21:12:04.6338694-05:00	evidence label=preflight_verified path=attempt-01-srb\001_preflight_verified.png
+2026-08-09T21:12:04.6868314-05:00	action click=(1139,677) reason=launch
+2026-08-09T21:12:05.0313986-05:00	action key=SPACE holdMs=55
+2026-08-09T21:12:05.0772599-05:00	action key=Z holdMs=40
+2026-08-09T21:12:05.2339447-05:00	launch immediateStage=true throttle=full debug=toggle
+2026-08-09T21:12:05.5499661-05:00	evidence label=liftoff path=attempt-01-srb\002_liftoff.png
+2026-08-09T21:12:06.0895065-05:00	obs elapsed=1.10 phase=pitch altKm=0.02 speed=18 radial=18 angle=90.0 target=90.0 apKm=0.03 peKm=-600.00 fuelT=31.54 thrustKN=1290
+2026-08-09T21:12:07.3658301-05:00	obs elapsed=2.43 phase=pitch altKm=0.06 speed=46 radial=46 angle=90.0 target=90.0 apKm=0.17 peKm=-600.00 fuelT=30.82 thrustKN=1290
+2026-08-09T21:12:08.4022096-05:00	obs elapsed=3.45 phase=pitch altKm=0.12 speed=68 radial=68 angle=90.0 target=90.0 apKm=0.35 peKm=-600.00 fuelT=30.27 thrustKN=1290
+2026-08-09T21:12:09.6743345-05:00	obs elapsed=4.73 phase=pitch altKm=0.22 speed=97 radial=97 angle=90.0 target=90.0 apKm=0.70 peKm=-600.00 fuelT=29.58 thrustKN=1290
+2026-08-09T21:12:10.7818210-05:00	obs elapsed=5.83 phase=pitch altKm=0.34 speed=121 radial=121 angle=90.0 target=90.0 apKm=1.09 peKm=-600.00 fuelT=28.99 thrustKN=1290
+2026-08-09T21:12:12.0483030-05:00	obs elapsed=7.03 phase=pitch altKm=0.50 speed=149 radial=149 angle=89.4 target=83.5 apKm=1.63 peKm=-600.00 fuelT=28.34 thrustKN=1290
+2026-08-09T21:12:13.0953784-05:00	obs elapsed=8.08 phase=pitch altKm=0.67 speed=173 radial=173 angle=87.1 target=80.6 apKm=2.20 peKm=-600.00 fuelT=27.78 thrustKN=1290
+2026-08-09T21:12:14.1087057-05:00	obs elapsed=9.10 phase=pitch altKm=0.86 speed=197 radial=197 angle=83.7 target=78.2 apKm=2.85 peKm=-600.00 fuelT=27.22 thrustKN=1290
+2026-08-09T21:12:14.7106224-05:00	ocr-reject field=angle raw=1.5 held=82.6 delta=-81.1
+2026-08-09T21:12:15.0930165-05:00	obs elapsed=10.10 phase=pitch altKm=1.07 speed=220 radial=220 angle=80.2 target=76.0 apKm=3.55 peKm=-600.00 fuelT=26.69 thrustKN=1290
+2026-08-09T21:12:15.3448394-05:00	ocr-reject field=angle raw=73.0 held=80.2 delta=-7.2
+2026-08-09T21:12:16.9975669-05:00	obs elapsed=12.02 phase=pitch altKm=1.53 speed=265 radial=264 angle=74.6 target=72.0 apKm=5.12 peKm=-599.97 fuelT=25.66 thrustKN=1290
+2026-08-09T21:12:18.2267370-05:00	obs elapsed=13.23 phase=pitch altKm=1.87 speed=294 radial=292 angle=73.0 target=69.6 apKm=6.28 peKm=-599.93 fuelT=25.00 thrustKN=1290
+2026-08-09T21:12:19.4462595-05:00	obs elapsed=14.47 phase=pitch altKm=2.25 speed=324 radial=320 angle=69.7 target=67.2 apKm=7.56 peKm=-599.87 fuelT=24.34 thrustKN=1290
+2026-08-09T21:12:20.1151874-05:00	evidence label=periodic path=attempt-01-srb\003_periodic.png
+2026-08-09T21:12:20.6733624-05:00	obs elapsed=15.70 phase=pitch altKm=2.67 speed=355 radial=348 angle=65.7 target=64.8 apKm=8.98 peKm=-599.77 fuelT=23.66 thrustKN=1290
+2026-08-09T21:12:21.6892258-05:00	obs elapsed=16.80 phase=pitch altKm=3.05 speed=381 radial=371 angle=63.4 target=62.8 apKm=10.24 peKm=-599.64 fuelT=23.09 thrustKN=1290
+2026-08-09T21:12:22.8632929-05:00	obs elapsed=17.91 phase=pitch altKm=3.48 speed=409 radial=396 angle=63.2 target=60.7 apKm=11.70 peKm=-599.46 fuelT=22.48 thrustKN=1290
+2026-08-09T21:12:24.0609044-05:00	obs elapsed=19.11 phase=pitch altKm=3.97 speed=440 radial=423 angle=60.9 target=58.5 apKm=13.37 peKm=-599.21 fuelT=21.83 thrustKN=1290
+2026-08-09T21:12:25.1577672-05:00	obs elapsed=20.20 phase=pitch altKm=4.47 speed=470 radial=447 angle=57.2 target=56.4 apKm=15.02 peKm=-598.90 fuelT=21.22 thrustKN=1290
+2026-08-09T21:12:26.2129910-05:00	obs elapsed=21.30 phase=pitch altKm=4.96 speed=499 radial=469 angle=55.3 target=54.4 apKm=16.64 peKm=-598.52 fuelT=20.65 thrustKN=1290
+2026-08-09T21:12:27.4609208-05:00	obs elapsed=22.50 phase=pitch altKm=5.53 speed=531 radial=494 angle=54.9 target=52.3 apKm=18.56 peKm=-598.02 fuelT=20.01 thrustKN=1290
+2026-08-09T21:12:28.7228873-05:00	obs elapsed=23.80 phase=pitch altKm=6.17 speed=567 radial=521 angle=51.5 target=50.4 apKm=20.74 peKm=-597.35 fuelT=19.33 thrustKN=1290
+2026-08-09T21:12:29.7652504-05:00	obs elapsed=24.90 phase=pitch altKm=6.75 speed=599 radial=543 angle=48.2 target=48.8 apKm=22.67 peKm=-596.62 fuelT=18.73 thrustKN=1290
+2026-08-09T21:12:30.7979915-05:00	obs elapsed=25.90 phase=pitch altKm=7.32 speed=630 radial=563 angle=48.0 target=47.1 apKm=24.57 peKm=-595.80 fuelT=18.18 thrustKN=1290
+2026-08-09T21:12:32.0109296-05:00	obs elapsed=27.10 phase=pitch altKm=8.00 speed=666 radial=587 angle=47.9 target=45.5 apKm=26.90 peKm=-594.75 fuelT=17.55 thrustKN=1290
+2026-08-09T21:12:33.1698767-05:00	obs elapsed=28.30 phase=pitch altKm=8.71 speed=705 radial=612 angle=44.7 target=43.9 apKm=29.43 peKm=-593.48 fuelT=16.90 thrustKN=1290
+2026-08-09T21:12:34.2575791-05:00	obs elapsed=29.30 phase=pitch altKm=9.34 speed=738 radial=632 angle=43.4 target=42.5 apKm=31.63 peKm=-592.21 fuelT=16.36 thrustKN=1290
+2026-08-09T21:12:35.1760746-05:00	evidence label=periodic path=attempt-01-srb\004_periodic.png
+2026-08-09T21:12:35.4452144-05:00	obs elapsed=30.50 phase=pitch altKm=10.13 speed=781 radial=656 angle=42.1 target=40.9 apKm=34.48 peKm=-590.45 fuelT=15.70 thrustKN=1290
+2026-08-09T21:12:36.5487742-05:00	obs elapsed=31.60 phase=pitch altKm=10.88 speed=821 radial=679 angle=39.6 target=39.4 apKm=37.20 peKm=-588.55 fuelT=15.09 thrustKN=1290
+2026-08-09T21:12:37.6460090-05:00	obs elapsed=32.70 phase=pitch altKm=11.61 speed=860 radial=699 angle=39.0 target=38.0 apKm=39.91 peKm=-586.49 fuelT=14.52 thrustKN=1290
+2026-08-09T21:12:38.8527707-05:00	obs elapsed=33.90 phase=pitch altKm=12.47 speed=907 radial=725 angle=38.0 target=36.5 apKm=43.31 peKm=-583.80 fuelT=13.87 thrustKN=1290
+2026-08-09T21:12:40.1190091-05:00	obs elapsed=35.20 phase=pitch altKm=13.43 speed=959 radial=751 angle=35.0 target=34.9 apKm=47.13 peKm=-580.42 fuelT=13.17 thrustKN=1290
+2026-08-09T21:12:41.1621210-05:00	obs elapsed=36.20 phase=pitch altKm=14.20 speed=1002 radial=771 angle=35.1 target=33.7 apKm=50.32 peKm=-577.38 fuelT=12.62 thrustKN=1290
+2026-08-09T21:12:42.3451166-05:00	obs elapsed=37.40 phase=pitch altKm=15.13 speed=1054 radial=796 angle=33.9 target=32.3 apKm=54.43 peKm=-573.42 fuelT=11.98 thrustKN=1290
+2026-08-09T21:12:43.4030190-05:00	obs elapsed=38.50 phase=pitch altKm=15.99 speed=1102 radial=818 angle=31.4 target=31.1 apKm=58.33 peKm=-569.30 fuelT=11.40 thrustKN=1290
+2026-08-09T21:12:44.2428202-05:00	action key=SPACE holdMs=55
+2026-08-09T21:12:44.2458291-05:00	stage=drop-boosters elapsed=39.20 thrustKN=650
+2026-08-09T21:12:44.2939323-05:00	evidence label=boosters_dropped path=attempt-01-srb\005_boosters_dropped.png
+2026-08-09T21:12:44.6520237-05:00	obs elapsed=39.60 phase=pitch altKm=16.96 speed=1137 radial=831 angle=31.2 target=30.1 apKm=61.37 peKm=-565.86 fuelT=11.01 thrustKN=650
+2026-08-09T21:12:45.8069850-05:00	obs elapsed=40.80 phase=pitch altKm=17.96 speed=1168 radial=842 angle=30.6 target=29.2 apKm=64.27 peKm=-562.59 fuelT=10.73 thrustKN=650
+2026-08-09T21:12:46.3666523-05:00	ocr-reject field=angle raw=294.0 held=30.0 delta=-96.0
+2026-08-09T21:12:47.1698389-05:00	obs elapsed=42.20 phase=pitch altKm=19.15 speed=1205 radial=854 angle=28.1 target=28.1 apKm=67.76 peKm=-558.37 fuelT=10.41 thrustKN=650
+2026-08-09T21:12:48.2289624-05:00	obs elapsed=43.30 phase=pitch altKm=20.05 speed=1233 radial=863 angle=28.3 target=27.3 apKm=70.51 peKm=-554.91 fuelT=10.17 thrustKN=650
+2026-08-09T21:12:49.3756954-05:00	obs elapsed=44.40 phase=pitch altKm=21.06 speed=1266 radial=874 angle=27.0 target=26.4 apKm=73.78 peKm=-550.80 fuelT=9.91 thrustKN=650
+2026-08-09T21:12:50.1798700-05:00	evidence label=periodic path=attempt-01-srb\006_periodic.png
+2026-08-09T21:12:50.4385696-05:00	obs elapsed=45.50 phase=pitch altKm=22.00 speed=1297 radial=883 angle=26.2 target=25.6 apKm=76.86 peKm=-546.69 fuelT=9.66 thrustKN=650
+2026-08-09T21:12:51.6579104-05:00	obs elapsed=46.70 phase=pitch altKm=23.06 speed=1333 radial=895 angle=25.9 target=24.7 apKm=80.58 peKm=-541.79 fuelT=9.39 thrustKN=650
+2026-08-09T21:12:52.2189499-05:00	action key=X holdMs=45
+2026-08-09T21:12:52.2245544-05:00	phase=coast elapsed=47.20 apKm=82.36 peKm=-539.37 tta=134.3 halfBurn=17.2
+2026-08-09T21:12:52.2773347-05:00	evidence label=ascent_cutoff path=attempt-01-srb\007_ascent_cutoff.png
+2026-08-09T21:12:52.5314697-05:00	steer key=LEFT holdMs=242 errorDeg=15.6
+2026-08-09T21:12:52.5380011-05:00	obs elapsed=47.20 phase=coast altKm=23.55 speed=1349 radial=900 angle=24.8 target=40.4 apKm=82.36 peKm=-539.37 fuelT=9.26 thrustKN=650
+2026-08-09T21:12:53.2855433-05:00	steer key=LEFT holdMs=244 errorDeg=15.7
+2026-08-09T21:12:53.8155772-05:00	steer key=LEFT holdMs=243 errorDeg=15.6
+2026-08-09T21:12:53.8186071-05:00	obs elapsed=48.60 phase=coast altKm=24.81 speed=1349 radial=893 angle=24.2 target=39.8 apKm=83.03 peKm=-538.37 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:54.3462494-05:00	steer key=LEFT holdMs=241 errorDeg=15.5
+2026-08-09T21:12:54.8615202-05:00	steer key=LEFT holdMs=238 errorDeg=15.2
+2026-08-09T21:12:54.8660751-05:00	obs elapsed=49.70 phase=coast altKm=25.74 speed=1342 radial=884 angle=24.3 target=39.5 apKm=82.92 peKm=-538.46 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:55.3580768-05:00	steer key=LEFT holdMs=233 errorDeg=14.9
+2026-08-09T21:12:55.8740167-05:00	steer key=LEFT holdMs=228 errorDeg=14.4
+2026-08-09T21:12:55.8780248-05:00	obs elapsed=50.70 phase=coast altKm=26.64 speed=1335 radial=876 angle=24.8 target=39.2 apKm=82.84 peKm=-538.54 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:56.3752611-05:00	steer key=LEFT holdMs=221 errorDeg=13.9
+2026-08-09T21:12:56.8758417-05:00	steer key=LEFT holdMs=212 errorDeg=13.2
+2026-08-09T21:12:56.8787778-05:00	obs elapsed=51.70 phase=coast altKm=27.52 speed=1328 radial=868 angle=25.7 target=38.9 apKm=82.77 peKm=-538.60 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:57.3594891-05:00	steer key=LEFT holdMs=202 errorDeg=12.5
+2026-08-09T21:12:57.8452456-05:00	steer key=LEFT holdMs=192 errorDeg=11.7
+2026-08-09T21:12:57.8502327-05:00	obs elapsed=52.70 phase=coast altKm=28.37 speed=1322 radial=861 angle=27.0 target=38.7 apKm=82.71 peKm=-538.66 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:58.3113649-05:00	steer key=LEFT holdMs=181 errorDeg=10.8
+2026-08-09T21:12:58.7513889-05:00	steer key=LEFT holdMs=167 errorDeg=9.8
+2026-08-09T21:12:58.7549104-05:00	obs elapsed=53.70 phase=coast altKm=29.19 speed=1316 radial=853 angle=28.6 target=38.4 apKm=82.66 peKm=-538.70 fuelT=9.21 thrustKN=0
+2026-08-09T21:12:59.1708201-05:00	steer key=LEFT holdMs=155 errorDeg=8.9
+2026-08-09T21:12:59.9962847-05:00	obs elapsed=54.90 phase=coast altKm=30.28 speed=1308 radial=844 angle=31.2 target=38.0 apKm=82.61 peKm=-538.75 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:01.0917412-05:00	obs elapsed=56.10 phase=coast altKm=31.24 speed=1301 radial=835 angle=34.0 target=37.7 apKm=82.57 peKm=-538.79 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:02.0056202-05:00	obs elapsed=57.10 phase=coast altKm=32.07 speed=1295 radial=828 angle=36.6 target=37.4 apKm=82.54 peKm=-538.82 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:03.1687399-05:00	obs elapsed=58.20 phase=coast altKm=32.98 speed=1289 radial=819 angle=39.5 target=37.0 apKm=82.52 peKm=-538.84 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:04.2612720-05:00	obs elapsed=59.20 phase=coast altKm=33.82 speed=1283 radial=812 angle=41.7 target=36.7 apKm=82.50 peKm=-538.86 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:06.3787776-05:00	steer key=RIGHT holdMs=156 errorDeg=-8.9
+2026-08-09T21:13:06.3827320-05:00	obs elapsed=61.30 phase=coast altKm=35.50 speed=1271 radial=797 angle=45.0 target=36.1 apKm=82.47 peKm=-538.90 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:06.8157942-05:00	steer key=RIGHT holdMs=164 errorDeg=-9.6
+2026-08-09T21:13:07.2672068-05:00	steer key=RIGHT holdMs=171 errorDeg=-10.1
+2026-08-09T21:13:07.7692299-05:00	steer key=RIGHT holdMs=177 errorDeg=-10.5
+2026-08-09T21:13:07.7726746-05:00	obs elapsed=62.60 phase=coast altKm=36.54 speed=1264 radial=787 angle=46.2 target=35.7 apKm=82.45 peKm=-538.91 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:08.2394374-05:00	steer key=RIGHT holdMs=183 errorDeg=-11.0
+2026-08-09T21:13:08.6907294-05:00	steer key=RIGHT holdMs=186 errorDeg=-11.2
+2026-08-09T21:13:08.6941938-05:00	obs elapsed=63.60 phase=coast altKm=37.30 speed=1258 radial=780 angle=46.6 target=35.4 apKm=82.44 peKm=-538.92 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:09.4068069-05:00	steer key=RIGHT holdMs=189 errorDeg=-11.5
+2026-08-09T21:13:09.8747564-05:00	steer key=RIGHT holdMs=189 errorDeg=-11.5
+2026-08-09T21:13:09.8776847-05:00	obs elapsed=64.70 phase=coast altKm=38.18 speed=1252 radial=772 angle=46.5 target=35.0 apKm=82.43 peKm=-538.93 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:10.3271585-05:00	steer key=RIGHT holdMs=189 errorDeg=-11.4
+2026-08-09T21:13:10.8115856-05:00	steer key=RIGHT holdMs=187 errorDeg=-11.3
+2026-08-09T21:13:11.2478177-05:00	steer key=RIGHT holdMs=182 errorDeg=-10.9
+2026-08-09T21:13:11.2542836-05:00	obs elapsed=66.10 phase=coast altKm=39.26 speed=1245 radial=762 angle=45.5 target=34.6 apKm=82.42 peKm=-538.94 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:11.7009902-05:00	steer key=RIGHT holdMs=179 errorDeg=-10.7
+2026-08-09T21:13:12.4038160-05:00	steer key=RIGHT holdMs=169 errorDeg=-9.9
+2026-08-09T21:13:12.4068242-05:00	obs elapsed=67.30 phase=coast altKm=40.13 speed=1238 radial=753 angle=44.1 target=34.2 apKm=82.42 peKm=-538.95 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:12.8377889-05:00	steer key=RIGHT holdMs=161 errorDeg=-9.3
+2026-08-09T21:13:13.2588953-05:00	steer key=RIGHT holdMs=154 errorDeg=-8.8
+2026-08-09T21:13:13.6681073-05:00	steer key=RIGHT holdMs=145 errorDeg=-8.1
+2026-08-09T21:13:13.6710984-05:00	obs elapsed=68.60 phase=coast altKm=41.10 speed=1232 radial=744 angle=41.9 target=33.8 apKm=82.41 peKm=-538.96 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:14.6599320-05:00	obs elapsed=69.60 phase=coast altKm=41.85 speed=1226 radial=737 angle=39.8 target=33.5 apKm=82.41 peKm=-538.96 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:15.8289464-05:00	obs elapsed=70.80 phase=coast altKm=42.74 speed=1220 radial=728 angle=37.0 target=33.1 apKm=82.41 peKm=-538.97 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:17.0585588-05:00	obs elapsed=72.10 phase=coast altKm=43.65 speed=1214 radial=720 angle=34.1 target=32.7 apKm=82.40 peKm=-538.97 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:18.1190412-05:00	obs elapsed=73.20 phase=coast altKm=44.43 speed=1208 radial=712 angle=31.5 target=32.3 apKm=82.40 peKm=-538.97 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:19.6609865-05:00	obs elapsed=74.70 phase=coast altKm=45.49 speed=1201 radial=701 angle=28.6 target=31.8 apKm=82.40 peKm=-538.98 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:20.2763282-05:00	evidence label=periodic path=attempt-01-srb\008_periodic.png
+2026-08-09T21:13:21.2358389-05:00	obs elapsed=76.20 phase=coast altKm=46.57 speed=1193 radial=690 angle=26.4 target=31.3 apKm=82.40 peKm=-538.98 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:22.2842095-05:00	obs elapsed=77.20 phase=coast altKm=47.25 speed=1188 radial=684 angle=25.4 target=31.0 apKm=82.39 peKm=-538.98 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:23.3341905-05:00	obs elapsed=78.30 phase=coast altKm=47.97 speed=1183 radial=676 angle=24.8 target=30.6 apKm=82.39 peKm=-538.98 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:24.5829181-05:00	obs elapsed=79.50 phase=coast altKm=48.80 speed=1177 radial=668 angle=24.5 target=30.2 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:25.7706222-05:00	obs elapsed=80.70 phase=coast altKm=49.61 speed=1171 radial=659 angle=24.8 target=29.8 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:27.1272332-05:00	obs elapsed=82.10 phase=coast altKm=50.52 speed=1165 radial=649 angle=25.7 target=29.3 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:28.1411510-05:00	obs elapsed=83.20 phase=coast altKm=51.21 speed=1160 radial=642 angle=26.7 target=29.0 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:29.2760698-05:00	obs elapsed=84.40 phase=coast altKm=51.97 speed=1154 radial=634 angle=28.2 target=28.6 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:30.4018243-05:00	obs elapsed=85.40 phase=coast altKm=52.63 speed=1150 radial=627 angle=29.4 target=28.2 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:31.4016385-05:00	obs elapsed=86.40 phase=coast altKm=53.25 speed=1145 radial=620 angle=30.3 target=27.9 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:32.4157612-05:00	obs elapsed=87.40 phase=coast altKm=53.86 speed=1141 radial=613 angle=30.9 target=27.5 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:33.4566815-05:00	obs elapsed=88.40 phase=coast altKm=54.49 speed=1136 radial=606 angle=31.1 target=27.1 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:34.5510151-05:00	obs elapsed=89.50 phase=coast altKm=55.14 speed=1131 radial=599 angle=30.9 target=26.8 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:35.2770975-05:00	evidence label=periodic path=attempt-01-srb\009_periodic.png
+2026-08-09T21:13:35.6255535-05:00	obs elapsed=90.60 phase=coast altKm=55.80 speed=1127 radial=591 angle=30.3 target=26.4 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:36.8691226-05:00	obs elapsed=91.90 phase=coast altKm=56.53 speed=1121 radial=583 angle=29.3 target=26.0 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:37.9017130-05:00	obs elapsed=92.90 phase=coast altKm=57.14 speed=1117 radial=575 angle=28.1 target=25.5 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:38.8948464-05:00	obs elapsed=93.90 phase=coast altKm=57.71 speed=1112 radial=569 angle=26.8 target=25.2 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:40.1471103-05:00	obs elapsed=95.20 phase=coast altKm=58.45 speed=1107 radial=560 angle=24.9 target=24.7 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:41.1336420-05:00	obs elapsed=96.20 phase=coast altKm=59.01 speed=1103 radial=553 angle=23.7 target=24.3 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:42.1433369-05:00	obs elapsed=97.20 phase=coast altKm=59.55 speed=1099 radial=546 angle=22.8 target=24.0 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:43.3300606-05:00	obs elapsed=98.40 phase=coast altKm=60.17 speed=1094 radial=539 angle=22.2 target=23.6 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:44.5673877-05:00	obs elapsed=99.60 phase=coast altKm=60.83 speed=1089 radial=530 angle=21.9 target=23.1 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:45.6732126-05:00	obs elapsed=100.70 phase=coast altKm=61.42 speed=1085 radial=523 angle=21.8 target=22.7 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:46.6692311-05:00	obs elapsed=101.70 phase=coast altKm=61.94 speed=1081 radial=516 angle=21.8 target=22.3 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:47.6978099-05:00	obs elapsed=102.80 phase=coast altKm=62.47 speed=1077 radial=509 angle=21.8 target=21.9 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:48.7368551-05:00	obs elapsed=103.80 phase=coast altKm=63.00 speed=1073 radial=502 angle=21.8 target=21.5 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:50.1689446-05:00	obs elapsed=105.30 phase=coast altKm=63.73 speed=1068 radial=492 angle=21.8 target=21.0 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:50.2095733-05:00	evidence label=periodic path=attempt-01-srb\010_periodic.png
+2026-08-09T21:13:51.5114610-05:00	obs elapsed=106.50 phase=coast altKm=64.34 speed=1063 radial=484 angle=21.8 target=20.5 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:52.4458929-05:00	obs elapsed=107.50 phase=coast altKm=64.79 speed=1060 radial=478 angle=21.7 target=20.1 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:53.6810818-05:00	obs elapsed=108.70 phase=coast altKm=65.37 speed=1056 radial=470 angle=21.3 target=19.7 apKm=82.39 peKm=-538.99 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:54.9174904-05:00	obs elapsed=109.90 phase=coast altKm=65.95 speed=1051 radial=462 angle=20.6 target=19.2 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:56.2204159-05:00	obs elapsed=111.30 phase=coast altKm=66.59 speed=1046 radial=452 angle=19.6 target=18.6 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:57.2013333-05:00	obs elapsed=112.30 phase=coast altKm=67.03 speed=1043 radial=446 angle=18.9 target=18.2 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:58.1866120-05:00	obs elapsed=113.30 phase=coast altKm=67.45 speed=1040 radial=439 angle=18.4 target=17.9 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:13:59.1408676-05:00	ocr-reject field=angle raw=0.0 held=18.2 delta=-18.2
+2026-08-09T21:13:59.3736264-05:00	obs elapsed=114.50 phase=coast altKm=67.98 speed=1036 radial=431 angle=18.0 target=17.4 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:00.4322723-05:00	obs elapsed=115.50 phase=coast altKm=68.42 speed=1032 radial=425 angle=17.8 target=17.0 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:01.5622344-05:00	obs elapsed=116.60 phase=coast altKm=68.88 speed=1029 radial=418 angle=17.9 target=16.5 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:02.5460875-05:00	obs elapsed=117.60 phase=coast altKm=69.29 speed=1026 radial=411 angle=17.9 target=16.1 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:03.8384051-05:00	obs elapsed=118.80 phase=coast altKm=69.80 speed=1022 radial=403 angle=17.6 target=15.6 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:04.8706022-05:00	obs elapsed=119.90 phase=coast altKm=70.22 speed=1019 radial=396 angle=17.0 target=15.2 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:05.2334324-05:00	evidence label=periodic path=attempt-01-srb\011_periodic.png
+2026-08-09T21:14:05.8553499-05:00	obs elapsed=120.90 phase=coast altKm=70.61 speed=1015 radial=389 angle=16.2 target=14.8 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:07.1016179-05:00	obs elapsed=122.20 phase=coast altKm=71.12 speed=1011 radial=381 angle=14.9 target=14.3 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:08.1124113-05:00	obs elapsed=123.20 phase=coast altKm=71.49 speed=1009 radial=374 angle=14.0 target=13.8 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:09.1141417-05:00	obs elapsed=124.20 phase=coast altKm=71.88 speed=1006 radial=368 angle=13.3 target=13.4 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:10.0877175-05:00	obs elapsed=125.20 phase=coast altKm=72.23 speed=1003 radial=361 angle=12.8 target=13.0 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:11.1022256-05:00	obs elapsed=126.20 phase=coast altKm=72.59 speed=1000 radial=355 angle=12.6 target=12.6 apKm=82.39 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:12.0846510-05:00	obs elapsed=127.20 phase=coast altKm=72.94 speed=997 radial=348 angle=12.7 target=12.2 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:13.4425361-05:00	obs elapsed=128.50 phase=coast altKm=73.38 speed=994 radial=340 angle=13.1 target=11.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:14.7709985-05:00	obs elapsed=129.80 phase=coast altKm=73.82 speed=990 radial=332 angle=13.3 target=11.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:15.7550036-05:00	obs elapsed=130.80 phase=coast altKm=74.14 speed=988 radial=325 angle=13.2 target=10.7 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:16.9842729-05:00	obs elapsed=132.00 phase=coast altKm=74.54 speed=985 radial=317 angle=12.7 target=10.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:17.9687496-05:00	obs elapsed=133.00 phase=coast altKm=74.85 speed=982 radial=311 angle=12.0 target=9.7 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:18.9810359-05:00	obs elapsed=134.00 phase=coast altKm=75.16 speed=980 radial=304 angle=11.1 target=9.3 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:20.1298724-05:00	obs elapsed=135.20 phase=coast altKm=75.53 speed=977 radial=296 angle=9.7 target=8.8 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:20.1772068-05:00	evidence label=periodic path=attempt-01-srb\012_periodic.png
+2026-08-09T21:14:21.1723653-05:00	obs elapsed=136.30 phase=coast altKm=75.83 speed=975 radial=289 angle=8.5 target=8.3 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:22.2310206-05:00	obs elapsed=137.30 phase=coast altKm=76.12 speed=972 radial=283 angle=7.4 target=7.9 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:23.1983457-05:00	obs elapsed=138.30 phase=coast altKm=76.40 speed=970 radial=277 angle=6.7 target=7.4 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:24.2351162-05:00	obs elapsed=139.30 phase=coast altKm=76.68 speed=968 radial=270 angle=6.2 target=7.0 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:25.2170858-05:00	obs elapsed=140.30 phase=coast altKm=76.94 speed=966 radial=264 angle=6.1 target=6.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:26.1834003-05:00	obs elapsed=141.30 phase=coast altKm=77.20 speed=964 radial=257 angle=6.2 target=6.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:27.4544487-05:00	obs elapsed=142.50 phase=coast altKm=77.50 speed=961 radial=250 angle=6.8 target=5.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:28.7355847-05:00	obs elapsed=143.70 phase=coast altKm=77.82 speed=959 radial=241 angle=7.4 target=5.0 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:29.7158110-05:00	obs elapsed=144.70 phase=coast altKm=78.05 speed=957 radial=235 angle=7.6 target=4.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:30.7169844-05:00	obs elapsed=145.70 phase=coast altKm=78.28 speed=955 radial=229 angle=7.4 target=4.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:31.7569501-05:00	obs elapsed=146.80 phase=coast altKm=78.51 speed=953 radial=222 angle=6.9 target=3.7 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:32.7872760-05:00	obs elapsed=147.80 phase=coast altKm=78.74 speed=951 radial=215 angle=6.1 target=3.2 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:33.7898485-05:00	obs elapsed=148.80 phase=coast altKm=78.96 speed=950 radial=209 angle=5.0 target=2.8 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:35.1522947-05:00	obs elapsed=150.30 phase=coast altKm=79.25 speed=947 radial=200 angle=3.0 target=2.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:35.1925789-05:00	evidence label=periodic path=attempt-01-srb\013_periodic.png
+2026-08-09T21:14:36.4043978-05:00	obs elapsed=151.50 phase=coast altKm=79.49 speed=945 radial=192 angle=1.4 target=1.5 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:37.3463333-05:00	obs elapsed=152.50 phase=coast altKm=79.68 speed=944 radial=186 angle=0.4 target=1.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:38.3656138-05:00	obs elapsed=153.50 phase=coast altKm=79.86 speed=942 radial=179 angle=-0.3 target=0.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:39.5754626-05:00	obs elapsed=154.70 phase=coast altKm=80.07 speed=941 radial=171 angle=-0.7 target=0.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:40.5694210-05:00	obs elapsed=155.70 phase=coast altKm=80.24 speed=939 radial=165 angle=-0.6 target=-0.4 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:41.7897767-05:00	obs elapsed=156.90 phase=coast altKm=80.44 speed=938 radial=157 angle=-0.1 target=-0.9 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:43.2719244-05:00	obs elapsed=158.30 phase=coast altKm=80.65 speed=936 radial=149 angle=0.8 target=-1.5 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:44.5360003-05:00	obs elapsed=159.50 phase=coast altKm=80.83 speed=934 radial=140 angle=1.4 target=-2.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:45.6094327-05:00	obs elapsed=160.60 phase=coast altKm=80.98 speed=933 radial=134 angle=1.4 target=-2.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:46.6395466-05:00	obs elapsed=161.60 phase=coast altKm=81.11 speed=932 radial=127 angle=1.2 target=-3.1 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:47.5921954-05:00	obs elapsed=162.60 phase=coast altKm=81.23 speed=931 radial=121 angle=0.7 target=-3.6 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:48.6783614-05:00	obs elapsed=163.60 phase=coast altKm=81.35 speed=930 radial=114 angle=-0.2 target=-4.0 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:49.5525001-05:00	action key=Z holdMs=45
+2026-08-09T21:14:49.5545177-05:00	phase=circularize elapsed=164.60 apKm=82.38 peKm=-539.00 tta=17.0 halfBurn=17.1
+2026-08-09T21:14:49.6225071-05:00	evidence label=circularization_start path=attempt-01-srb\014_circularization_start.png
+2026-08-09T21:14:49.7226215-05:00	obs elapsed=164.60 phase=circularize altKm=81.46 speed=929 radial=108 angle=-1.2 target=-4.5 apKm=82.38 peKm=-539.00 fuelT=9.21 thrustKN=0
+2026-08-09T21:14:50.6520017-05:00	obs elapsed=165.70 phase=circularize altKm=81.58 speed=965 radial=106 angle=-4.6 target=-4.9 apKm=82.49 peKm=-533.67 fuelT=9.00 thrustKN=650
+2026-08-09T21:14:51.6261787-05:00	obs elapsed=166.70 phase=circularize altKm=81.68 speed=1002 radial=104 angle=-5.8 target=-5.4 apKm=82.57 peKm=-527.73 fuelT=8.78 thrustKN=650
+2026-08-09T21:14:52.6087385-05:00	obs elapsed=167.70 phase=circularize altKm=81.79 speed=1042 radial=103 angle=-4.8 target=-5.8 apKm=82.66 peKm=-521.03 fuelT=8.55 thrustKN=650
+2026-08-09T21:14:53.7057169-05:00	obs elapsed=168.80 phase=circularize altKm=81.90 speed=1088 radial=101 angle=-5.9 target=-6.2 apKm=82.77 peKm=-512.96 fuelT=8.30 thrustKN=650
+2026-08-09T21:14:54.7569981-05:00	obs elapsed=169.80 phase=circularize altKm=82.00 speed=1130 radial=99 angle=-5.8 target=-6.6 apKm=82.87 peKm=-504.88 fuelT=8.06 thrustKN=650
+2026-08-09T21:14:56.1173811-05:00	obs elapsed=171.20 phase=circularize altKm=82.14 speed=1189 radial=98 angle=-6.4 target=-7.0 apKm=83.01 peKm=-493.05 fuelT=7.74 thrustKN=650
+2026-08-09T21:14:57.1536684-05:00	obs elapsed=172.20 phase=circularize altKm=82.24 speed=1233 radial=96 angle=-6.4 target=-7.4 apKm=83.10 peKm=-483.54 fuelT=7.51 thrustKN=650
+2026-08-09T21:14:58.2599512-05:00	obs elapsed=173.40 phase=circularize altKm=82.34 speed=1281 radial=95 angle=-7.5 target=-7.7 apKm=83.22 peKm=-472.22 fuelT=7.26 thrustKN=650
+2026-08-09T21:14:59.2911810-05:00	obs elapsed=174.40 phase=circularize altKm=82.44 speed=1327 radial=94 angle=-7.3 target=-8.1 apKm=83.31 peKm=-461.01 fuelT=7.02 thrustKN=650
+2026-08-09T21:15:00.4370920-05:00	obs elapsed=175.50 phase=circularize altKm=82.55 speed=1379 radial=93 angle=-7.6 target=-8.4 apKm=83.44 peKm=-447.23 fuelT=6.76 thrustKN=650
+2026-08-09T21:15:01.4388301-05:00	obs elapsed=176.50 phase=circularize altKm=82.64 speed=1426 radial=91 angle=-8.5 target=-8.7 apKm=83.54 peKm=-433.92 fuelT=6.53 thrustKN=650
+2026-08-09T21:15:02.4370566-05:00	obs elapsed=177.50 phase=circularize altKm=82.73 speed=1471 radial=90 angle=-7.7 target=-9.0 apKm=83.65 peKm=-420.46 fuelT=6.31 thrustKN=650
+2026-08-09T21:15:03.5182803-05:00	obs elapsed=178.60 phase=circularize altKm=82.83 speed=1524 radial=89 angle=-9.1 target=-9.2 apKm=83.78 peKm=-403.33 fuelT=6.06 thrustKN=650
+2026-08-09T21:15:04.4873924-05:00	obs elapsed=179.60 phase=circularize altKm=82.91 speed=1572 radial=88 angle=-8.5 target=-9.5 apKm=83.90 peKm=-386.55 fuelT=5.83 thrustKN=650
+2026-08-09T21:15:05.1085222-05:00	evidence label=periodic path=attempt-01-srb\015_periodic.png
+2026-08-09T21:15:05.6642268-05:00	obs elapsed=180.70 phase=circularize altKm=83.02 speed=1629 radial=88 angle=-9.1 target=-9.8 apKm=84.08 peKm=-365.18 fuelT=5.57 thrustKN=650
+2026-08-09T21:15:06.6624546-05:00	obs elapsed=181.80 phase=circularize altKm=83.11 speed=1681 radial=88 angle=-9.8 target=-10.0 apKm=84.22 peKm=-344.28 fuelT=5.34 thrustKN=650
+2026-08-09T21:15:07.6687454-05:00	obs elapsed=182.80 phase=circularize altKm=83.19 speed=1733 radial=88 angle=-9.1 target=-10.3 apKm=84.40 peKm=-321.69 fuelT=5.11 thrustKN=650
+2026-08-09T21:15:08.7707692-05:00	obs elapsed=183.80 phase=circularize altKm=83.29 speed=1791 radial=88 angle=-10.0 target=-10.5 apKm=84.65 peKm=-294.17 fuelT=4.86 thrustKN=650
+2026-08-09T21:15:09.7750477-05:00	obs elapsed=184.80 phase=circularize altKm=83.38 speed=1843 radial=88 angle=-10.7 target=-10.7 apKm=84.87 peKm=-266.78 fuelT=4.63 thrustKN=650
+2026-08-09T21:15:10.5431629-05:00	ocr-reject field=angle raw=10.1 held=-10.3 delta=20.4
+2026-08-09T21:15:10.8232087-05:00	ocr-reject field=angle raw=10.0 held=-10.3 delta=20.3
+2026-08-09T21:15:10.8261272-05:00	obs elapsed=185.90 phase=circularize altKm=83.47 speed=1901 radial=89 angle=-10.3 target=-11.0 apKm=85.20 peKm=-234.23 fuelT=4.39 thrustKN=650
+2026-08-09T21:15:12.2127976-05:00	obs elapsed=187.30 phase=circularize altKm=83.60 speed=1980 radial=91 angle=-10.7 target=-11.2 apKm=85.86 peKm=-184.54 fuelT=4.07 thrustKN=650
+2026-08-09T21:15:12.5200023-05:00	action key=SPACE holdMs=55
+2026-08-09T21:15:12.5232445-05:00	stage=separate-hotstage elapsed=187.60
+2026-08-09T21:15:12.5832241-05:00	evidence label=core_separated path=attempt-01-srb\016_core_separated.png
+2026-08-09T21:15:12.8572840-05:00	ocr-reject field=angle raw=-101.7 held=-10.8 delta=-90.9
+2026-08-09T21:15:13.3532717-05:00	obs elapsed=188.40 phase=circularize altKm=83.70 speed=2005 radial=91 angle=-10.3 target=-11.5 apKm=86.13 peKm=-166.74 fuelT=3.99 thrustKN=65
+2026-08-09T21:15:14.2858078-05:00	obs elapsed=189.40 phase=circularize altKm=83.78 speed=2015 radial=90 angle=-11.0 target=-11.7 apKm=86.25 peKm=-159.94 fuelT=3.97 thrustKN=65
+2026-08-09T21:15:15.3183167-05:00	obs elapsed=190.40 phase=circularize altKm=83.88 speed=2025 radial=89 angle=-11.7 target=-11.9 apKm=86.38 peKm=-152.10 fuelT=3.95 thrustKN=65
+2026-08-09T21:15:17.0791905-05:00	obs elapsed=192.10 phase=circularize altKm=84.03 speed=2043 radial=87 angle=-10.8 target=-12.2 apKm=86.62 peKm=-138.70 fuelT=3.92 thrustKN=65
+2026-08-09T21:15:18.2584810-05:00	obs elapsed=193.30 phase=circularize altKm=84.13 speed=2055 radial=86 angle=-12.5 target=-12.5 apKm=86.80 peKm=-129.17 fuelT=3.90 thrustKN=65
+2026-08-09T21:15:19.5316647-05:00	obs elapsed=194.60 phase=circularize altKm=84.24 speed=2069 radial=85 angle=-11.7 target=-12.8 apKm=87.01 peKm=-118.28 fuelT=3.87 thrustKN=65
+2026-08-09T21:15:20.1452189-05:00	evidence label=periodic path=attempt-01-srb\017_periodic.png
+2026-08-09T21:15:20.7161017-05:00	obs elapsed=195.80 phase=circularize altKm=84.34 speed=2080 radial=84 angle=-12.4 target=-13.0 apKm=87.22 peKm=-108.65 fuelT=3.85 thrustKN=65
+2026-08-09T21:15:21.7405795-05:00	obs elapsed=196.80 phase=circularize altKm=84.42 speed=2091 radial=84 angle=-11.9 target=-13.2 apKm=87.42 peKm=-99.81 fuelT=3.83 thrustKN=65
+2026-08-09T21:15:22.8892850-05:00	obs elapsed=198.00 phase=circularize altKm=84.52 speed=2103 radial=83 angle=-13.3 target=-13.4 apKm=87.68 peKm=-89.27 fuelT=3.81 thrustKN=65
+2026-08-09T21:15:23.9889941-05:00	obs elapsed=199.00 phase=circularize altKm=84.61 speed=2115 radial=83 angle=-12.6 target=-13.6 apKm=87.95 peKm=-79.38 fuelT=3.79 thrustKN=65
+2026-08-09T21:15:25.0875091-05:00	obs elapsed=200.20 phase=circularize altKm=84.71 speed=2127 radial=82 angle=-13.2 target=-13.9 apKm=88.27 peKm=-68.63 fuelT=3.77 thrustKN=65
+2026-08-09T21:15:26.1582996-05:00	obs elapsed=201.20 phase=circularize altKm=84.79 speed=2138 radial=82 angle=-12.8 target=-14.1 apKm=88.59 peKm=-59.07 fuelT=3.75 thrustKN=65
+2026-08-09T21:15:26.7772772-05:00	ocr-reject field=angle raw=-134.0 held=-12.8 delta=-121.2
+2026-08-09T21:15:27.1219928-05:00	obs elapsed=202.20 phase=circularize altKm=84.87 speed=2148 radial=82 angle=-14.4 target=-14.3 apKm=88.96 peKm=-49.31 fuelT=3.73 thrustKN=65
+2026-08-09T21:15:28.2376634-05:00	obs elapsed=203.30 phase=circularize altKm=84.96 speed=2160 radial=81 angle=-14.8 target=-14.5 apKm=89.40 peKm=-38.32 fuelT=3.71 thrustKN=65
+2026-08-09T21:15:29.2844278-05:00	obs elapsed=204.40 phase=circularize altKm=85.05 speed=2172 radial=81 angle=-14.2 target=-14.7 apKm=89.94 peKm=-27.11 fuelT=3.69 thrustKN=65
+2026-08-09T21:15:30.3416668-05:00	obs elapsed=205.40 phase=circularize altKm=85.13 speed=2183 radial=81 angle=-14.2 target=-14.9 apKm=90.56 peKm=-16.58 fuelT=3.67 thrustKN=65
+2026-08-09T21:15:31.3761441-05:00	obs elapsed=206.50 phase=circularize altKm=85.22 speed=2194 radial=81 angle=-14.2 target=-15.1 apKm=91.36 peKm=-5.55 fuelT=3.65 thrustKN=65
+2026-08-09T21:15:32.3606372-05:00	obs elapsed=207.50 phase=circularize altKm=85.30 speed=2205 radial=81 angle=-14.2 target=-15.3 apKm=92.34 peKm=5.04 fuelT=3.63 thrustKN=65
+2026-08-09T21:15:33.4492558-05:00	obs elapsed=208.50 phase=circularize altKm=85.38 speed=2217 radial=81 angle=-14.4 target=-15.5 apKm=93.73 peKm=16.53 fuelT=3.61 thrustKN=65
+2026-08-09T21:15:34.4800023-05:00	ocr-reject field=angle raw=-145.0 held=-15.0 delta=-130.0
+2026-08-09T21:15:34.4835299-05:00	obs elapsed=209.60 phase=circularize altKm=85.47 speed=2228 radial=81 angle=-15.0 target=-15.7 apKm=95.52 peKm=27.38 fuelT=3.59 thrustKN=65
+2026-08-09T21:15:35.1358568-05:00	evidence label=periodic path=attempt-01-srb\018_periodic.png
+2026-08-09T21:15:35.6249574-05:00	obs elapsed=210.70 phase=circularize altKm=85.56 speed=2241 radial=82 angle=-14.9 target=-15.9 apKm=98.33 peKm=38.84 fuelT=3.57 thrustKN=65
+2026-08-09T21:15:36.6116747-05:00	ocr-reject field=angle raw=14.7 held=-14.9 delta=29.6
+2026-08-09T21:15:36.6856514-05:00	obs elapsed=211.70 phase=circularize altKm=85.64 speed=2251 radial=82 angle=-14.9 target=-16.1 apKm=101.78 peKm=47.91 fuelT=3.55 thrustKN=65
+2026-08-09T21:15:37.7524461-05:00	obs elapsed=212.90 phase=circularize altKm=85.74 speed=2264 radial=83 angle=-15.4 target=-16.3 apKm=107.94 peKm=57.55 fuelT=3.53 thrustKN=65
+2026-08-09T21:15:39.1671259-05:00	obs elapsed=214.20 phase=circularize altKm=85.85 speed=2280 radial=84 angle=-16.7 target=-16.6 apKm=118.66 peKm=66.09 fuelT=3.50 thrustKN=65
+2026-08-09T21:15:39.4153983-05:00	ocr-reject field=angle raw=16.9 held=-16.7 delta=33.6
+2026-08-09T21:15:40.1679437-05:00	obs elapsed=215.30 phase=circularize altKm=85.94 speed=2291 radial=84 angle=-16.3 target=-16.8 apKm=128.84 peKm=70.47 fuelT=3.48 thrustKN=65
+2026-08-09T21:15:40.7368585-05:00	action key=X holdMs=45
+2026-08-09T21:15:40.7958786-05:00	evidence label=stable_orbit path=attempt-01-srb\019_stable_orbit.png
+2026-08-09T21:15:40.8596665-05:00	attempt=1 result=success reason=live-periapsis-cleared-atmosphere met=215.7
+2026-08-09T21:15:40.8767850-05:00	session=complete successes=1 attempts=1
+

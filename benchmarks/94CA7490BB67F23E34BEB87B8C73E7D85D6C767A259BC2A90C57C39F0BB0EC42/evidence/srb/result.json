@@ -1,0 +1,18 @@
+{
+    "attempt":  1,
+    "preset":  "SRB",
+    "result":  "success",
+    "reason":  "live-periapsis-cleared-atmosphere",
+    "profile":  {
+                    "turnStartM":  350,
+                    "turnEndM":  30000,
+                    "targetApM":  82000,
+                    "targetPeM":  71000,
+                    "maxAoARad":  0.28
+                },
+    "missionTimeS":  215.7,
+    "finalAltitudeM":  85980,
+    "finalApM":  134130,
+    "finalPeM":  72020,
+    "remainingFuelT":  3.47
+}

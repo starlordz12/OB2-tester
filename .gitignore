@@ -1,0 +1,24 @@
+# Generated live-run output and mutable state
+/runs/
+/state/
+/learning-state.json
+
+# Original scratch package retained locally but not published
+/*.png
+/PLAYTEST_REPORT_2026-08-09.md
+
+# PowerShell/editor artifacts
+*.tmp
+*.bak
+*.user
+*.log.tmp
+.vscode/
+.idea/
+
+# Never bundle the game or build outputs
+*.exe
+*.pck
+*.dll
+bin/
+obj/
+

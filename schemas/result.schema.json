@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ob2-tester/result.schema.json",
+  "title": "OB2 Tester attempt result",
+  "type": "object",
+  "required": [
+    "attempt",
+    "preset",
+    "result",
+    "reason",
+    "profile",
+    "missionTimeS",
+    "finalAltitudeM",
+    "finalApM",
+    "finalPeM",
+    "remainingFuelT"
+  ],
+  "properties": {
+    "attempt": { "type": "integer", "minimum": 1 },
+    "preset": { "enum": ["SRB", "Heavy", "Orbiter"] },
+    "craft": { "type": "string", "minLength": 1 },
+    "result": { "enum": ["success", "aborted"] },
+    "reason": { "type": "string", "minLength": 1 },
+    "profile": {
+      "type": "object",
+      "required": ["turnStartM", "turnEndM", "targetApM", "targetPeM", "maxAoARad"],
+      "properties": {
+        "turnStartM": { "type": "number", "minimum": 0 },
+        "turnEndM": { "type": "number", "exclusiveMinimum": 0 },
+        "targetApM": { "type": "number", "exclusiveMinimum": 70000 },
+        "targetPeM": { "type": "number", "minimum": 70000 },
+        "maxAoARad": { "type": "number", "exclusiveMinimum": 0, "maximum": 1.5707963268 }
+      },
+      "additionalProperties": false
+    },
+    "missionTimeS": { "type": ["number", "null"], "minimum": 0 },
+    "finalAltitudeM": { "type": ["number", "null"] },
+    "finalApM": { "type": ["number", "null"] },
+    "finalPeM": { "type": ["number", "null"] },
+    "remainingFuelT": { "type": ["number", "null"], "minimum": 0 },
+    "evidenceDirectory": { "type": "string" }
+  },
+  "additionalProperties": false
+}
+

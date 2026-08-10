@@ -1,0 +1,18 @@
+{
+    "attempt":  1,
+    "preset":  "Orbiter",
+    "result":  "aborted",
+    "reason":  "telemetry-stale",
+    "profile":  {
+                    "turnStartM":  600,
+                    "turnEndM":  45000,
+                    "targetApM":  90000,
+                    "targetPeM":  71000,
+                    "maxAoARad":  0.35
+                },
+    "missionTimeS":  null,
+    "finalAltitudeM":  null,
+    "finalApM":  null,
+    "finalPeM":  null,
+    "remainingFuelT":  null
+}

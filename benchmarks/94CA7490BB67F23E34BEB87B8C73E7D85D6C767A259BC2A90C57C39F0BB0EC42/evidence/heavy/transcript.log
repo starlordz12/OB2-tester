@@ -1,0 +1,73 @@
+﻿2026-08-09T21:17:12.1446807-05:00	session=start executable=OrbitOrBust2.exe sha256=94CA7490BB67F23E34BEB87B8C73E7D85D6C767A259BC2A90C57C39F0BB0EC42 window=1298x768 localOcr=true
+2026-08-09T21:17:12.1552238-05:00	profile turnStartM=600 turnEndM=45000 targetApM=90000 targetPeM=71000 maxAoARad=0.35 hardLimitS=60
+2026-08-09T21:17:12.1888680-05:00	attempt=1 preset=Heavy status=preparing
+2026-08-09T21:17:12.6897292-05:00	action click=(1134,365) reason=select-Heavy
+2026-08-09T21:17:13.1380136-05:00	preflight preset=Heavy craft=Heavy verified=true
+2026-08-09T21:17:13.1951698-05:00	evidence label=preflight_verified path=attempt-01-heavy\001_preflight_verified.png
+2026-08-09T21:17:13.2471589-05:00	action click=(1139,677) reason=launch
+2026-08-09T21:17:13.5834310-05:00	action key=SPACE holdMs=55
+2026-08-09T21:17:13.6342354-05:00	action key=Z holdMs=40
+2026-08-09T21:17:13.7908795-05:00	launch immediateStage=true throttle=full debug=toggle
+2026-08-09T21:17:14.1070952-05:00	evidence label=liftoff path=attempt-01-heavy\002_liftoff.png
+2026-08-09T21:17:14.3590531-05:00	obs elapsed=0.80 phase=pitch altKm=0.01 speed=8 radial=8 angle=90.0 target=90.0 apKm=0.01 peKm=-600.00 fuelT=19.87 thrustKN=650
+2026-08-09T21:17:15.6161671-05:00	obs elapsed=2.13 phase=pitch altKm=0.03 speed=27 radial=27 angle=90.0 target=90.0 apKm=0.07 peKm=-600.00 fuelT=19.57 thrustKN=650
+2026-08-09T21:17:16.8885453-05:00	obs elapsed=3.38 phase=pitch altKm=0.08 speed=45 radial=45 angle=90.0 target=90.0 apKm=0.18 peKm=-600.00 fuelT=19.29 thrustKN=650
+2026-08-09T21:17:17.9693545-05:00	obs elapsed=4.47 phase=pitch altKm=0.14 speed=61 radial=61 angle=90.0 target=90.0 apKm=0.32 peKm=-600.00 fuelT=19.04 thrustKN=650
+2026-08-09T21:17:19.0018652-05:00	obs elapsed=5.50 phase=pitch altKm=0.21 speed=76 radial=76 angle=90.0 target=90.0 apKm=0.50 peKm=-600.00 fuelT=18.80 thrustKN=650
+2026-08-09T21:17:20.0500557-05:00	obs elapsed=6.57 phase=pitch altKm=0.30 speed=92 radial=92 angle=90.0 target=90.0 apKm=0.73 peKm=-600.00 fuelT=18.56 thrustKN=650
+2026-08-09T21:17:21.0623720-05:00	obs elapsed=7.60 phase=pitch altKm=0.40 speed=108 radial=108 angle=90.0 target=90.0 apKm=0.99 peKm=-600.00 fuelT=18.33 thrustKN=650
+2026-08-09T21:17:22.1238546-05:00	obs elapsed=8.63 phase=pitch altKm=0.52 speed=124 radial=124 angle=90.0 target=90.0 apKm=1.30 peKm=-600.00 fuelT=18.09 thrustKN=650
+2026-08-09T21:17:23.2999770-05:00	obs elapsed=9.75 phase=pitch altKm=0.67 speed=141 radial=141 angle=89.9 target=86.5 apKm=1.68 peKm=-600.00 fuelT=17.83 thrustKN=650
+2026-08-09T21:17:25.2622529-05:00	obs elapsed=11.70 phase=pitch altKm=0.97 speed=172 radial=172 angle=86.9 target=81.7 apKm=2.49 peKm=-600.00 fuelT=17.38 thrustKN=650
+2026-08-09T21:17:26.5567607-05:00	obs elapsed=12.98 phase=pitch altKm=1.20 speed=192 radial=192 angle=84.7 target=79.5 apKm=3.10 peKm=-600.00 fuelT=17.09 thrustKN=650
+2026-08-09T21:17:27.4558741-05:00	ocr-reject field=angle raw=1.0 held=82.3 delta=-81.3
+2026-08-09T21:17:27.8242301-05:00	obs elapsed=14.30 phase=pitch altKm=1.46 speed=212 radial=212 angle=79.7 target=77.5 apKm=3.78 peKm=-600.00 fuelT=16.80 thrustKN=650
+2026-08-09T21:17:28.7034591-05:00	evidence label=periodic path=attempt-01-heavy\003_periodic.png
+2026-08-09T21:17:28.9759396-05:00	obs elapsed=15.50 phase=pitch altKm=1.73 speed=231 radial=231 angle=76.1 target=75.6 apKm=4.48 peKm=-599.99 fuelT=16.53 thrustKN=650
+2026-08-09T21:17:30.1196200-05:00	obs elapsed=16.60 phase=pitch altKm=1.99 speed=249 radial=248 angle=75.3 target=74.1 apKm=5.17 peKm=-599.97 fuelT=16.28 thrustKN=650
+2026-08-09T21:17:31.2894915-05:00	obs elapsed=17.80 phase=pitch altKm=2.30 speed=268 radial=267 angle=73.8 target=72.4 apKm=5.97 peKm=-599.95 fuelT=16.01 thrustKN=650
+2026-08-09T21:17:32.3407562-05:00	obs elapsed=18.85 phase=pitch altKm=2.60 speed=286 radial=284 angle=71.3 target=70.9 apKm=6.77 peKm=-599.92 fuelT=15.75 thrustKN=650
+2026-08-09T21:17:33.4768783-05:00	obs elapsed=19.90 phase=pitch altKm=2.91 speed=304 radial=300 angle=71.4 target=69.5 apKm=7.57 peKm=-599.88 fuelT=15.51 thrustKN=650
+2026-08-09T21:17:34.6494092-05:00	ocr-reject field=angle raw=63.4 held=70.3 delta=-6.9
+2026-08-09T21:17:34.7067687-05:00	obs elapsed=21.20 phase=pitch altKm=3.29 speed=325 radial=319 angle=70.3 target=67.8 apKm=8.60 peKm=-599.81 fuelT=15.23 thrustKN=650
+2026-08-09T21:17:35.8022314-05:00	obs elapsed=22.28 phase=pitch altKm=3.67 speed=344 radial=337 angle=66.6 target=66.3 apKm=9.57 peKm=-599.73 fuelT=14.97 thrustKN=650
+2026-08-09T21:17:36.8990231-05:00	obs elapsed=23.35 phase=pitch altKm=4.03 speed=363 radial=353 angle=66.8 target=64.9 apKm=10.54 peKm=-599.63 fuelT=14.73 thrustKN=650
+2026-08-09T21:17:38.1162886-05:00	obs elapsed=24.60 phase=pitch altKm=4.47 speed=384 radial=372 angle=65.5 target=63.4 apKm=11.71 peKm=-599.50 fuelT=14.45 thrustKN=650
+2026-08-09T21:17:39.2754854-05:00	obs elapsed=25.80 phase=pitch altKm=4.94 speed=406 radial=390 angle=62.7 target=61.8 apKm=12.94 peKm=-599.33 fuelT=14.17 thrustKN=650
+2026-08-09T21:17:40.3459210-05:00	obs elapsed=26.80 phase=pitch altKm=5.35 speed=425 radial=406 angle=61.6 target=60.5 apKm=14.03 peKm=-599.16 fuelT=13.93 thrustKN=650
+2026-08-09T21:17:41.7968182-05:00	obs elapsed=28.20 phase=pitch altKm=5.94 speed=452 radial=427 angle=59.9 target=58.7 apKm=15.60 peKm=-598.87 fuelT=13.61 thrustKN=650
+2026-08-09T21:17:42.9238751-05:00	obs elapsed=29.40 phase=pitch altKm=6.45 speed=474 radial=444 angle=57.9 target=57.2 apKm=16.95 peKm=-598.58 fuelT=13.34 thrustKN=650
+2026-08-09T21:17:43.7691031-05:00	evidence label=periodic path=attempt-01-heavy\004_periodic.png
+2026-08-09T21:17:44.0649465-05:00	obs elapsed=30.50 phase=pitch altKm=6.96 speed=496 radial=461 angle=57.1 target=55.8 apKm=18.32 peKm=-598.25 fuelT=13.08 thrustKN=650
+2026-08-09T21:17:45.2811635-05:00	obs elapsed=31.80 phase=pitch altKm=7.53 speed=520 radial=479 angle=55.9 target=54.3 apKm=19.86 peKm=-597.84 fuelT=12.81 thrustKN=650
+2026-08-09T21:17:46.3637310-05:00	obs elapsed=32.90 phase=pitch altKm=8.07 speed=543 radial=495 angle=53.4 target=52.9 apKm=21.30 peKm=-597.40 fuelT=12.56 thrustKN=650
+2026-08-09T21:17:47.8195013-05:00	obs elapsed=34.30 phase=pitch altKm=8.78 speed=573 radial=516 angle=53.1 target=51.2 apKm=23.23 peKm=-596.76 fuelT=12.24 thrustKN=650
+2026-08-09T21:17:48.9657085-05:00	obs elapsed=35.50 phase=pitch altKm=9.41 speed=599 radial=534 angle=50.3 target=49.7 apKm=24.98 peKm=-596.10 fuelT=11.96 thrustKN=650
+2026-08-09T21:17:49.9673800-05:00	obs elapsed=36.50 phase=pitch altKm=9.96 speed=621 radial=548 angle=49.2 target=48.4 apKm=26.45 peKm=-595.48 fuelT=11.73 thrustKN=650
+2026-08-09T21:17:51.1576835-05:00	obs elapsed=37.60 phase=pitch altKm=10.58 speed=647 radial=565 angle=49.3 target=47.0 apKm=28.19 peKm=-594.71 fuelT=11.47 thrustKN=650
+2026-08-09T21:17:52.3328896-05:00	obs elapsed=38.80 phase=pitch altKm=11.28 speed=676 radial=583 angle=46.4 target=45.5 apKm=30.18 peKm=-593.75 fuelT=11.19 thrustKN=650
+2026-08-09T21:17:53.4052601-05:00	obs elapsed=39.90 phase=pitch altKm=11.90 speed=701 radial=598 angle=45.5 target=44.2 apKm=31.91 peKm=-592.81 fuelT=10.95 thrustKN=650
+2026-08-09T21:17:54.5934915-05:00	obs elapsed=41.10 phase=pitch altKm=12.63 speed=730 radial=615 angle=44.1 target=42.7 apKm=33.99 peKm=-591.63 fuelT=10.68 thrustKN=650
+2026-08-09T21:17:55.6607077-05:00	obs elapsed=42.20 phase=pitch altKm=13.31 speed=758 radial=630 angle=42.1 target=41.4 apKm=35.91 peKm=-590.41 fuelT=10.43 thrustKN=650
+2026-08-09T21:17:56.8083667-05:00	obs elapsed=43.30 phase=pitch altKm=14.01 speed=787 radial=645 angle=41.3 target=40.0 apKm=37.94 peKm=-589.03 fuelT=10.18 thrustKN=650
+2026-08-09T21:17:57.9334664-05:00	obs elapsed=44.40 phase=pitch altKm=14.75 speed=817 radial=661 angle=40.1 target=38.7 apKm=40.11 peKm=-587.46 fuelT=9.92 thrustKN=650
+2026-08-09T21:17:58.8768679-05:00	evidence label=periodic path=attempt-01-heavy\005_periodic.png
+2026-08-09T21:17:59.1668341-05:00	obs elapsed=45.60 phase=pitch altKm=15.59 speed=851 radial=678 angle=38.1 target=37.1 apKm=42.58 peKm=-585.50 fuelT=9.63 thrustKN=650
+2026-08-09T21:18:00.2541037-05:00	obs elapsed=46.70 phase=pitch altKm=16.32 speed=881 radial=693 angle=36.9 target=35.8 apKm=44.76 peKm=-583.63 fuelT=9.39 thrustKN=650
+2026-08-09T21:18:01.4177619-05:00	obs elapsed=47.90 phase=pitch altKm=17.15 speed=916 radial=709 angle=36.0 target=34.3 apKm=47.31 peKm=-581.36 fuelT=9.12 thrustKN=650
+2026-08-09T21:18:02.8026712-05:00	obs elapsed=49.30 phase=pitch altKm=18.16 speed=958 radial=727 angle=32.6 target=32.6 apKm=50.42 peKm=-578.26 fuelT=8.80 thrustKN=650
+2026-08-09T21:18:03.9295878-05:00	obs elapsed=50.40 phase=pitch altKm=18.95 speed=991 radial=741 angle=33.1 target=31.3 apKm=52.87 peKm=-575.65 fuelT=8.55 thrustKN=650
+2026-08-09T21:18:05.0363543-05:00	obs elapsed=51.50 phase=pitch altKm=19.80 speed=1027 radial=756 angle=30.9 target=29.9 apKm=55.60 peKm=-572.62 fuelT=8.29 thrustKN=650
+2026-08-09T21:18:06.0824152-05:00	obs elapsed=52.60 phase=pitch altKm=20.60 speed=1061 radial=769 angle=29.8 target=28.6 apKm=58.19 peKm=-569.50 fuelT=8.05 thrustKN=650
+2026-08-09T21:18:07.1917094-05:00	obs elapsed=53.70 phase=pitch altKm=21.46 speed=1098 radial=783 angle=28.9 target=27.2 apKm=61.10 peKm=-565.89 fuelT=7.80 thrustKN=650
+2026-08-09T21:18:08.3093175-05:00	obs elapsed=54.80 phase=pitch altKm=22.32 speed=1135 radial=796 angle=27.3 target=25.9 apKm=64.02 peKm=-562.03 fuelT=7.55 thrustKN=650
+2026-08-09T21:18:09.3731154-05:00	obs elapsed=55.90 phase=pitch altKm=23.23 speed=1175 radial=809 angle=25.1 target=24.5 apKm=67.18 peKm=-557.57 fuelT=7.29 thrustKN=650
+2026-08-09T21:18:10.7727989-05:00	obs elapsed=57.20 phase=pitch altKm=24.30 speed=1222 radial=824 angle=24.4 target=22.9 apKm=71.04 peKm=-551.83 fuelT=6.99 thrustKN=650
+2026-08-09T21:18:11.9586560-05:00	obs elapsed=58.40 phase=pitch altKm=25.33 speed=1268 radial=837 angle=22.2 target=21.4 apKm=74.89 peKm=-545.85 fuelT=6.71 thrustKN=650
+2026-08-09T21:18:12.9848673-05:00	obs elapsed=59.50 phase=pitch altKm=26.18 speed=1306 radial=848 angle=21.5 target=20.1 apKm=78.14 peKm=-540.40 fuelT=6.48 thrustKN=650
+2026-08-09T21:18:14.6131521-05:00	obs elapsed=61.10 phase=pitch altKm=27.57 speed=1370 radial=865 angle=20.9 target=18.2 apKm=83.86 peKm=-530.79 fuelT=6.11 thrustKN=650
+2026-08-09T21:18:14.7128545-05:00	evidence label=abort_hard-mission-time-limit path=attempt-01-heavy\006_abort_hard-mission-time-limit.png
+2026-08-09T21:18:14.7862984-05:00	action key=ESC holdMs=60
+2026-08-09T21:18:15.0574532-05:00	attempt=1 result=aborted reason=hard-mission-time-limit met=61.1
+2026-08-09T21:18:15.0736236-05:00	session=complete successes=0 attempts=1
+

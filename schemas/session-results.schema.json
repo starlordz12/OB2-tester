@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/ob2-tester/session-results.schema.json",
+  "title": "OB2 Tester session results",
+  "description": "A stable top-level array, including for sessions with one attempt.",
+  "type": "array",
+  "items": {
+    "$ref": "result.schema.json"
+  }
+}

@@ -1,0 +1,24 @@
+﻿2026-08-09T21:18:35.1428665-05:00	session=start executable=OrbitOrBust2.exe sha256=94CA7490BB67F23E34BEB87B8C73E7D85D6C767A259BC2A90C57C39F0BB0EC42 window=1298x768 localOcr=true
+2026-08-09T21:18:35.1573837-05:00	profile turnStartM=600 turnEndM=45000 targetApM=90000 targetPeM=71000 maxAoARad=0.35 hardLimitS=60
+2026-08-09T21:18:35.1924721-05:00	attempt=1 preset=Orbiter status=preparing
+2026-08-09T21:18:35.7087471-05:00	action click=(1227,316) reason=select-Orbiter
+2026-08-09T21:18:36.1505569-05:00	preflight preset=Orbiter craft=Orbit-Class verified=true
+2026-08-09T21:18:36.2116152-05:00	evidence label=preflight_verified path=attempt-01-orbiter\001_preflight_verified.png
+2026-08-09T21:18:36.2680190-05:00	action click=(1139,677) reason=launch
+2026-08-09T21:18:36.6055812-05:00	action key=SPACE holdMs=55
+2026-08-09T21:18:36.6584244-05:00	action key=Z holdMs=40
+2026-08-09T21:18:36.8314214-05:00	launch immediateStage=true throttle=full debug=toggle
+2026-08-09T21:18:37.1565031-05:00	evidence label=liftoff path=attempt-01-orbiter\002_liftoff.png
+2026-08-09T21:18:38.9350929-05:00	obs elapsed=2.30 phase=pitch altKm=0.01 speed=2 radial=2 angle=90.0 target=90.0 apKm=0.01 peKm=-600.00 fuelT=11.87 thrustKN=180
+2026-08-09T21:18:39.9173076-05:00	obs elapsed=3.39 phase=pitch altKm=0.01 speed=3 radial=3 angle=90.0 target=90.0 apKm=0.01 peKm=-600.00 fuelT=11.80 thrustKN=180
+2026-08-09T21:18:40.9825715-05:00	obs elapsed=4.43 phase=pitch altKm=0.02 speed=4 radial=4 angle=90.0 target=90.0 apKm=0.02 peKm=-600.00 fuelT=11.74 thrustKN=180
+2026-08-09T21:18:42.0318418-05:00	obs elapsed=5.51 phase=pitch altKm=0.02 speed=5 radial=5 angle=90.0 target=90.0 apKm=0.02 peKm=-600.00 fuelT=11.67 thrustKN=180
+2026-08-09T21:18:43.0407689-05:00	obs elapsed=6.53 phase=pitch altKm=0.03 speed=6 radial=6 angle=90.0 target=90.0 apKm=0.03 peKm=-600.00 fuelT=11.61 thrustKN=180
+2026-08-09T21:18:44.0757346-05:00	obs elapsed=7.55 phase=pitch altKm=0.03 speed=7 radial=7 angle=90.0 target=90.0 apKm=0.04 peKm=-600.00 fuelT=11.55 thrustKN=180
+2026-08-09T21:18:45.1426097-05:00	obs elapsed=8.60 phase=pitch altKm=0.04 speed=9 radial=9 angle=90.0 target=90.0 apKm=0.05 peKm=-600.00 fuelT=11.48 thrustKN=180
+2026-08-09T21:18:46.2015139-05:00	obs elapsed=9.67 phase=pitch altKm=0.05 speed=10 radial=10 angle=90.0 target=90.0 apKm=0.06 peKm=-600.00 fuelT=11.41 thrustKN=180
+2026-08-09T21:18:48.9466381-05:00	evidence label=abort_telemetry-stale path=attempt-01-orbiter\003_abort_telemetry-stale.png
+2026-08-09T21:18:49.0101981-05:00	action key=ESC holdMs=60
+2026-08-09T21:18:49.2625659-05:00	attempt=1 result=aborted reason=telemetry-stale met=
+2026-08-09T21:18:49.2766424-05:00	session=complete successes=0 attempts=1
+

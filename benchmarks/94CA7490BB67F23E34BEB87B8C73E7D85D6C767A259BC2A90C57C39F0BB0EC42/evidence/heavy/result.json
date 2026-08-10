@@ -1,0 +1,18 @@
+{
+    "attempt":  1,
+    "preset":  "Heavy",
+    "result":  "aborted",
+    "reason":  "hard-mission-time-limit",
+    "profile":  {
+                    "turnStartM":  600,
+                    "turnEndM":  45000,
+                    "targetApM":  90000,
+                    "targetPeM":  71000,
+                    "maxAoARad":  0.35
+                },
+    "missionTimeS":  61.1,
+    "finalAltitudeM":  27570,
+    "finalApM":  83860,
+    "finalPeM":  -530790,
+    "remainingFuelT":  6.11
+}
